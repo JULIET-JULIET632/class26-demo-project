@@ -15,7 +15,7 @@ spec:
         app: green-app
     spec:
       containers:
-     -  name: green-app 
-       image: ebonje/nginx:version1
-       ports:
-       - containerPort: 80
+        - name: green-app
+          image: ebonje/nginx:version1
+          ports:
+            - containerPort: 80
